@@ -1,7 +1,6 @@
-myString = 'aebecedefeg'
-print(myString)
-
-for i in range(len(myString)):
-    if(myString[i] == 'e'):
-        myString[i]='E'
-print(myString)
+s = list("aebecedefeg")
+for i in range(len(s)):
+    if(s[i] == 'e'):
+        s[i]='E'
+s = "".join(s)
+print(s)
