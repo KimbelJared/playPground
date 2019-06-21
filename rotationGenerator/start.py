@@ -9,3 +9,6 @@ schedule.test()
 
 rotation = rt('template.xlsx')
 rotation.test()
+
+
+rotation.fillBlanks()
